@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --grey: #1f1e1ede;
+  --bg: #2b2b2b;
+  --pr1: rgb(29, 29, 29);
+  --pr2: rgb(90, 89, 89);
+}
+
+body {
+  background-color: var(--bg);
+}
+nav {
+  height: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background-color: var(--grey);
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to left, 
+      cyan, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+
+}
+nav img {
+  border-radius: 81rem;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 1em;
+}
+.part_1 {
+  display: flex;
+  align-items: center;
+}
+.part_1 span {
+  color: cyan;
+}
+.part_2 {
+  display: flex;
+  align-items: center;
+}
+.part_2 ul {
+  display: flex;
+}
+.part_2 li {
+  margin-left: 1rem;
+  list-style-type: none;
+}
+.part_2 a {
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  background-color: rgba(255, 0, 0, 0);
+  margin-inline: 4rem;
+  margin-top: 10rem;
+  height: 60vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+}
+.conainer_1 {
+  background-color: var(--pr1);
+  color: white;
+  width: 20%;
+  height: 92%;
+  margin: 1rem;
+  position: relative;
+  font-size: large;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      cyan, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+.conainer_1 h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  line-height: 1.1;
+  font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+}
+.content h1 span {
+  color: cyan;
+  margin-bottom: 1rem;
+}
+.content h2 {
+  color: red;
+  margin: 2rem 0 0.2rem 0;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+.content h3 {
+  color: rgba(216, 206, 206, 0.432);
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+.content {
+  margin-left: 2rem;
+  position: absolute;
+  top: 45%;
+}
+.container_2 {
+  width: 20%;
+  height: 95%;
+  margin: 1rem;
+  margin-left: 5rem;
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
+}
+.card {
+  border: 2px solid black;
+  -webkit-box-shadow: -37px 3px 8px -17px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: -37px 3px 8px -17px rgba(0, 0, 0, 0.48);
+  box-shadow: -37px 3px 8px -17px rgba(0, 0, 0, 0.48);
+  background-color: var(--pr2);
+  width: 17rem;
+  height: 95%;
+  margin: 1rem;
+}
